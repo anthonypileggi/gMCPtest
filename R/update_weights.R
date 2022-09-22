@@ -17,4 +17,5 @@ update_weights <- function(h, G, w){
     wt[j] <- 0
     return(wt)
   }
+
 }

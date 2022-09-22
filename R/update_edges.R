@@ -5,7 +5,7 @@
 #' @return A weight vector
 update_edges <- function(h, G, w){
   if(sum(h) == length(h)){
-    return(g)
+    return(G)
   } else {
     j <- which(h == 0)[1]
     h[j] <- 1
