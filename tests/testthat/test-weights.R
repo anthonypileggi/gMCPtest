@@ -16,5 +16,5 @@ test_that("generate weights works", {
   out <- generate_weights(G, w)
   expect_length(out, 2)
   expect_equal(nrow(out), 15)
-  expect_equal(tail(out$set, 1)[[1]], c(1/2, 1/2, 0, 0))
+  expect_equal(tail(out$weights, 1)[[1]], c(1/2, 1/2, 0, 0))
 })
